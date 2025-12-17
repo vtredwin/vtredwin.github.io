@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Express</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Logo Tienda Express">
+    </div>
+    <nav class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#promos">Promociones</a>
+        <a href="#ubicaciones">Ubicaciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero" style="background-image: url('assets/hero.jpg');">
+    <div class="hero-content">
+        <h1>Siempre cerca de ti</h1>
+        <p>Tu tienda de conveniencia de confianza</p>
+        <button onclick="verPromos()">Ver promociones</button>
+    </div>
+</section>
+
+<section id="servicios" class="section">
+    <h2>Servicios</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="assets/servicio1.jpg" alt="Pagos">
+            <p>Pago de servicios</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/servicio2.jpg" alt="Recargas">
+            <p>Recargas móviles</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/servicio3.jpg" alt="Café">
+            <p>Café y alimentos</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/servicio4.jpg" alt="Envíos">
+            <p>Envíos y retiros</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="promos" class="section gray">
+    <h2>Promociones</h2>
+    <p>Ofertas nuevas todos los días en tu tienda más cercana.</p>
+</section>
+
+<footer id="contacto" class="footer">
+    <p>© 2025 Tienda Express</p>
+    <p>Proyecto demo para GitHub Pages</p>
+</footer>
+
+<script src="index.js"></script>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5219999999999?text=Hola%20quiero%20información"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat en WhatsApp">
+    <img src="assets/whatsapp.png" alt="WhatsApp">
+</a>
+
+</body>
+</html>
